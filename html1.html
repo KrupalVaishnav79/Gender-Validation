@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate() {
+            var valid = false;
+            var x = document.gender.asd;
+            for (var i = 0; i < x.length; i++) {
+                if(x[i].checked) {
+                    valid = true;
+                    break;
+                }
+
+                if(value ===""){
+                    submitbutton.disabled = true
+                } else{
+                   submitbutton.disabled = 
+
+                }
+            }
+            if (valid) {
+               console.log("!!!!!!OK")
+               alert("ok go to next")
+            }
+            else {
+                console.error("Plse select any one of them");
+              return false;
+            
+        }
+    }
+    </script>
+    <link href="html.css">
+</head>
+
+<body>
+    <h2>
+    <center>
+    <form name="gender" onsubmit="return validate()">
+        <input id="582" type="radio" name="asd" value="male"> Male
+        <input id="582" type="radio" name="asd" value="female"> Female
+        <input id="582" type="radio" name="asd" value="other"> Other
+      
+      <br>  <button id="123" type="submit" value="submit" name="zxc">
+        Submit
+      </button>
+        </form>
+    </body>
+</center>
+</h2>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"> -->
+    
+<!-- </head>
+<body> -->
+   <!-- <center>
+    <div class="mx-auto  col-5" style="margin-top: 10rem;">
+        <h1 class="text-center mb-3 text-secondary"> Date Piker</h1>
+        <form>
+            <input class="form-control" type="date" placeholder="Select Date">
+        </form>
+    </div>
+    <!-- Gender validation ssss -->
+        <center>
+            <h1>Gender Validation</h1>
+    <h3>
+        <form id='roles'>
+            <input type="radio" name="role" value="1">Male
+            <input type="radio" name="role" value="2">Female
+            <input type="radio" name="role" value="3">Other
+          </form>
+          <br/>  
+          <input type='submit' form='roles' disabled>
+    </h3>
+   </center>
+   <br>
+ <center>
+<div id="main">
+    <h1>Date Piker</h1>
+    <div id="display">Selected date:</div>
+    <input type="date" id="dateInput" />
+  </div>
+</center>
+    <script src="html.js"></script>
